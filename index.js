@@ -7,7 +7,6 @@ var mainNavbar=document.querySelector(".main_Nav_Header");
 
 window.onscroll=function(){
    var top=window.scrollY;
-   console.log(Math.floor(top));
    if(top>800){
     mainNavbar.style.position='sticky'
     mainNavbar.style.top='0%'
@@ -74,20 +73,46 @@ pic_3.addEventListener("mousemove", () => {
       disableOnInteraction: false,
     },
     breakpoints: {
+      313: {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        spaceBetween: 30
+      },
       // when window width is >= 320px
       320: {
-        slidesPerView: 2,
-        spaceBetween: 20
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        spaceBetween: 30,
+        grabCursor: true,
+         loop:true
       },
       // when window width is >= 480px
       480: {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
         slidesPerView: 3,
-        spaceBetween: 30
+        spaceBetween: 30,
+        grabCursor: true,
+        loop:true
       },
       // when window width is >= 640px
       640: {
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
         slidesPerView: 4,
-        spaceBetween: 40
+        spaceBetween: 40,
+        grabCursor: true,
+        loop:true
       }
     },
     grabCursor: true,

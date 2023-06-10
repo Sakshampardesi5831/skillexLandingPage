@@ -67,6 +67,7 @@ body {
   border: none;
   border-radius: 10rem;
 }
+/*-----------------------------------------------------------------------------*/
 .main_Section {
   display: flex;
   width: 100%;
@@ -103,8 +104,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 15%;
+  width: 90%;
+  height: 10%;
   background-color: antiquewhite;
   font-size: 3rem;
 }
@@ -146,10 +147,10 @@ body {
   width: 60%;
   height: 95%;
 } */
-.pic_01{
+.pic_01 {
   width: 60%;
 }
-.button-box{
+.button-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,9 +159,9 @@ body {
   position: absolute;
   bottom: 4.5%;
   left: -10%;
- background-color: #39e336;
+  background-color: #39e336;
 }
-.button-box>h1{
+.button-box > h1 {
   font-size: 3rem;
 }
 .main_Courses {
@@ -265,149 +266,148 @@ body {
   font-size: 1.8rem;
   font-weight: 200;
 }
-#box-2{
-    width: 90%;
-    height: 60% !important;
+#box-2 {
+  width: 90%;
+  height: 60% !important;
 }
-#box-3{
-    width: 90%;
-    height: 80% !important;
+#box-3 {
+  width: 90%;
+  height: 80% !important;
 }
-.main_Container_Courses_Content{
-    width: 100%;
-    min-height: 100vh;
-    /* border: 2px solid red; */
-    background-color: antiquewhite;
+.main_Container_Courses_Content {
+  width: 100%;
+  min-height: 100vh;
+  /* border: 2px solid red; */
+  background-color: antiquewhite;
 }
-.main_Container_Courses_Content_Wrapper{
-    display: flex;
-    width: 100%;
-    height: 30vh;
-    /* background-color:paleturquoise; */
+.main_Container_Courses_Content_Wrapper {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  /* background-color:paleturquoise; */
 }
-.main_Container_Courses_Content_Wrapper_heading{
-    width: 50%;
-    height: 100%;
-    /* background-color: #fff; */
-    padding: 2rem 2rem;
+.main_Container_Courses_Content_Wrapper_heading {
+  width: 50%;
+  height: 100%;
+  /* background-color: #fff; */
+  padding: 2rem 2rem;
 }
-.main_Container_Courses_Content_Wrapper_heading>h2{
-    font-size: 5rem;
+.main_Container_Courses_Content_Wrapper_heading > h2 {
+  font-size: 5rem;
 }
-.main_Container_Courses_Content_Wrapper_paragraph{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
-    /* background-color: #fff; */
-    padding: 1rem 2rem;
+.main_Container_Courses_Content_Wrapper_paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  /* background-color: #fff; */
+  padding: 1rem 2rem;
 }
-.main_Container_Courses_Content_Wrapper_paragraph>p{
-    font-size: 2rem;
+.main_Container_Courses_Content_Wrapper_paragraph > p {
+  font-size: 2rem;
 }
-.main_Container_Courses_Content_video-Content_Wrapper{
-    display: flex;
-    width: 100%;
-    height: 70vh;
+.main_Container_Courses_Content_video-Content_Wrapper {
+  display: flex;
+  width: 100%;
+  height: 70vh;
 }
-.main_Container_Courses_Content_video-Content-Section_1{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    padding: 1rem 2rem;
+.main_Container_Courses_Content_video-Content-Section_1 {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
 }
-.main_Container_badge{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    height: 95%;
-    /* background-color: red; */
-    padding: 0.5rem 0.5rem;
-    gap: 2rem;
-  
+.main_Container_badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 95%;
+  /* background-color: red; */
+  padding: 0.5rem 0.5rem;
+  gap: 2rem;
 }
-.main_Container_badge_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 95%;
-    /* background-color: blueviolet; */
+.main_Container_badge_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 95%;
+  /* background-color: blueviolet; */
 }
-.badge_1{
-    width: 90%;
-    height: 10%;
-    /* background-color: blue; */
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 1rem 1rem;
+.badge_1 {
+  width: 90%;
+  height: 10%;
+  /* background-color: blue; */
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1rem 1rem;
 }
-.badge_1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 50%;
+.badge_1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
-.vertical_line{
-    width: 1%;
-    height: 15%;
-    border: 1px dashed #444;
+.vertical_line {
+  width: 1%;
+  height: 15%;
+  border: 1px dashed #444;
 }
-.main_Container_badge_content_boxes{ 
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    gap: 1rem;
-    width: 80%;
-    height: 25%;
-    /* background-color: #fff; */
-    padding: 1rem 2rem;
+.main_Container_badge_content_boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 80%;
+  height: 25%;
+  /* background-color: #fff; */
+  padding: 1rem 2rem;
 }
-.main_Container_badge_content_boxes>h4{
-    font-size: 2.5rem;
+.main_Container_badge_content_boxes > h4 {
+  font-size: 2.5rem;
 }
-.main_Container_badge_content_boxes>p{
-    font-size: 1.5rem;
+.main_Container_badge_content_boxes > p {
+  font-size: 1.5rem;
 }
-.main_Container_Courses_Content_video-Content-Section_2{
-    width: 75%;
-    height: 100%;
+.main_Container_Courses_Content_video-Content-Section_2 {
+  width: 75%;
+  height: 100%;
 }
-.main_Container_Courses_videoWrapper{
+.main_Container_Courses_videoWrapper {
   position: relative;
   width: 100%;
   height: 100%;
   padding: 1rem 1rem;
   border-radius: 1rem;
 }
-.main_Container_Courses_videoWrapper video{
+.main_Container_Courses_videoWrapper video {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center center;
   border-radius: 1rem;
 }
-.main_Container_Courses_videoWrapper_box{
+.main_Container_Courses_videoWrapper_box {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 40%;
   height: 20%;
-  background-color: #98fb97 ;
+  background-color: #98fb97;
   position: absolute;
   top: -5%;
   right: 10%;
   padding: 1rem 1rem;
 }
-.main_Container_Courses_videoWrapper_box_sections{
+.main_Container_Courses_videoWrapper_box_sections {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,23 +415,22 @@ body {
   height: 80%;
   gap: 1rem;
 }
-#box_section{
+#box_section {
   border-right: 2px solid black;
 }
-.main_Container_Courses_videoWrapper_box_sections>h2{
+.main_Container_Courses_videoWrapper_box_sections > h2 {
   font-size: 5rem;
 }
-.main_Container_Courses_videoWrapper_box_sections>p{
+.main_Container_Courses_videoWrapper_box_sections > p {
   font-size: 1.5rem;
 }
-.main_Container_CustomerReview{
-
+.main_Container_CustomerReview {
   width: 100%;
   min-height: 50vh;
   background-color: antiquewhite;
   padding: 1rem 1rem;
 }
-.main_Container_CustomerReview-Wrapper{
+.main_Container_CustomerReview-Wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -459,50 +458,50 @@ body {
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.swiper-slide>p{
+.swiper-slide > p {
   font-size: 2.5rem;
 }
-.swiper-slide>h2{
+.swiper-slide > h2 {
   font-size: 1.5rem;
 }
 .swiper-slide img {
   display: block;
   width: 100%;
 }
-.main_Container_CustomerReview_heading{
+.main_Container_CustomerReview_heading {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 10vh;
 }
-.main_Container_CustomerReview_heading>h1{
+.main_Container_CustomerReview_heading > h1 {
   font-size: 4rem;
 }
-.stars{
+.stars {
   font-size: 2rem;
-  color:goldenrod;
+  color: goldenrod;
 }
-.swiper-button-next{
+.swiper-button-next {
   color: #000;
 }
-.swiper-button-prev{
+.swiper-button-prev {
   color: #000;
 }
 /*------------------------------------------------------------------------------*/
-.main_Container_Footer{
+.main_Container_Footer {
   width: 100%;
   min-height: 40vh;
 }
-.main_Container_Footer_Wrapper{
+.main_Container_Footer_Wrapper {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 40vh;
 }
-.main_Container_Footer_Wrapper-section1{
+.main_Container_Footer_Wrapper-section1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -510,22 +509,22 @@ body {
   height: 50%;
   padding: 1rem 1rem;
 }
-.main_Container_Footer_Wrapper_section1-logo{
+.main_Container_Footer_Wrapper_section1-logo {
   width: 15%;
   height: 90%;
   display: flex;
   justify-content: center;
 }
-.main_Container_Footer_Wrapper_section1-logo>h1{
+.main_Container_Footer_Wrapper_section1-logo > h1 {
   font-size: 5rem;
 }
-.main_Container_Footer_Wrapper_section1-content{
+.main_Container_Footer_Wrapper_section1-content {
   display: flex;
   gap: 1rem;
   width: 30%;
   height: 90%;
 }
-.main_Container_Footer_Wrapper_section1-form{
+.main_Container_Footer_Wrapper_section1-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -533,7 +532,7 @@ body {
   width: 30%;
   height: 90%;
 }
-.main_Container_Footer_Wrapper_section1_Content_links{
+.main_Container_Footer_Wrapper_section1_Content_links {
   width: 50%;
   height: 100%;
   display: flex;
@@ -541,37 +540,44 @@ body {
   justify-content: space-between;
   padding: 1rem 1rem;
 }
-.main_Container_Footer_Wrapper_section1_Content_links>h5{
+.main_Container_Footer_Wrapper_section1_Content_links > h5 {
   font-size: 2rem;
   font-weight: 400;
 }
-.main_Container_Footer_Wrapper_section1-form>h5{
-  font-size: 2rem;
+.main_Container_Footer_Wrapper_section1-form > h5 {
+  font-size: 2.5rem;
   font-weight: 600;
 }
-.form-box{
+.form-box {
   width: 100%;
-  height: 50%;
+  height: 60%;
   padding: 1rem 1rem;
   display: flex;
   justify-content: start;
   align-items: center;
+  /* background-color: red; */
+  gap: 0.5rem;
 }
-.form-box input{
-  padding: 0.8rem 1rem;
-} 
-.form-box input::placeholder{
+.form-box input {
+  width: 80%;
+  height: 100%;
+  font-size: 2.0rem;
+}
+.form-box input::placeholder {
   color: #000;
   font-weight: 600;
   text-transform: capitalize;
+  padding: 0.5rem 0.5rem;
 }
-.form-box button{
-  padding: 1rem 1rem;
+.form-box button {
+  width: 15%;
+  height: 100%;
   background-color: #39e336;
   outline: none;
   border: none;
+  font-size: 2.0rem;
 }
-.main_Container_Footer_Wrapper-section2{
+.main_Container_Footer_Wrapper-section2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -579,7 +585,7 @@ body {
   width: 100%;
   height: 25%;
 }
-.main_Container_Footer_Wrapper_section2-logo{
+.main_Container_Footer_Wrapper_section2-logo {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -588,23 +594,23 @@ body {
   padding: 1rem 1rem;
   gap: 1rem;
 }
-.main_Container_Footer_Wrapper_section2_logo-photo{
+.main_Container_Footer_Wrapper_section2_logo-photo {
   width: 12%;
   height: 90%;
   padding: 0.5rem 0.5rem;
   border-radius: 50%;
 }
-.main_Container_Footer_Wrapper_section2_logo-photo img{
+.main_Container_Footer_Wrapper_section2_logo-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center center;
   border-radius: 50%;
 }
-.main_Container_Footer_Wrapper_section2-logo>h5{
+.main_Container_Footer_Wrapper_section2-logo > h5 {
   font-size: 2rem;
 }
-.main_Container_Footer_Wrapper_section2-icons{
+.main_Container_Footer_Wrapper_section2-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -614,4 +620,775 @@ body {
   gap: 1rem;
   font-size: 2rem;
   font-weight: 600;
+}
+
+/*-----RESPONSIVE SECTION CHALU YAHA SE---------------------------------------------------------------------------------*/
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+  /* .main_Section_Content {
+     justify-content: center;
+     height: 80%;
+   }
+   .main_Section_Content_1 {
+      height: 50%;
+   }
+   .main_Section_Picture{
+    height: 80%;
+   } */
+  .main_Section {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    /* border: 3px solid black; */
+  }
+  .main_Courses {
+    justify-content: start;
+    min-height: 60vh;
+  }
+  .main_Courses_heading {
+    font-size: 3.5rem;
+  }
+  .main_Courses_link_box {
+    width: 12%;
+  }
+  .main_Container_Courses_Content {
+    height: 89vh;
+  }
+  .main_Container_Courses_Content_Wrapper_paragraph {
+    height: 100%;
+  }
+  .main_Container_Courses_Content_Wrapper_paragraph > p {
+    font-size: 2.5rem;
+    padding: 0 0.5rem;
+  }
+  .main_Courses_categories {
+    height: 40vh;
+  }
+  .main_Container_Courses_Content_Wrapper_heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main_Container_Courses_Content_video-Content-Section_1 {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    height: 100%;
+}
+.main_Container_badge_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 69%;
+  height: 95%;
+  }
+  .main_Container_Courses_videoWrapper {
+    position: relative;
+    width: 94%;
+    height: 87%;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+.main_Container_Courses_videoWrapper_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 20%;
+  background-color: #98fb97;
+  position: absolute;
+  top: -5%;
+  right: 10%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer {
+  width: 100%;
+  min-height: 30vh;
+}
+.main_Container_Footer_Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+.main_Container_Footer_Wrapper-section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 54%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper-section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 34%;
+}
+
+
+.main_Container_Footer_Wrapper_section1_Content_links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  justify-content: center;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+.main_Container_Footer_Wrapper_section1-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 43%;
+  height: 90%;
+}
+.main_Container_Footer_Wrapper_section1-logo {
+  width: 15%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_Container_Footer_Wrapper_section2-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+.main_Container_Footer_Wrapper_section2-logo > h5 {
+  font-size: 2.5rem;
+}
+.main_Container_Footer_Wrapper_section2-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 36%;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+/*----------------------------------NAVIGATION BAR------------------------------------------*/
+.main_Nav_Header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  padding: 0.5rem 0.5rem;
+  transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+  /* background-color: red; */
+}
+.nav_buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 26%;
+  height: 100%;
+  padding: 1rem 1rem;
+  /* background-color: aqua; */
+}
+}
+@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+  .main_Courses_heading {
+    font-size: 4rem;
+}
+
+  .main_Courses_Links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    /* background-color: green; */
+}
+  .main_Courses_link_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    /* padding: 0.5rem 0.5rem; */
+    /* background-color: yellow; */
+    font-size: 2rem;
+}
+.main_Container_Footer_Wrapper_section1-logo {
+  align-items: center;
+}
+.main_Courses_sales {
+  width: 23%;
+  height: 90%;
+}
+.main_Container_badge {
+  gap: 4rem;
+}
+.main_Container_badge_content_boxes > p {
+  font-size: 2.5rem;
+}
+.main_Container_badge_content_boxes > h4 {
+  font-size: 4rem;
+}
+.main_Container_Courses_Content_Wrapper_heading > h2 {
+  font-size: 6rem;
+}
+.main_Container_Footer_Wrapper_section1_Content_links {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 3rem;
+  
+}
+.main_Container_Footer_Wrapper_section1-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 46%;
+  height: 90%;
+}
+.main_Container_Footer_Wrapper_section2_logo-photo {
+  width: 16%;
+  height: 90%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+}
+.main_Container_Footer_Wrapper_section2-logo > h5 {
+  font-size: 3rem;
+}
+}
+@media (max-width:650px) {
+  html{
+    font-size: 35%;
+  }
+  .swiper-slide > p {
+    font-size: 4.5rem;
+}
+.swiper-slide > h2 {
+  font-size: 3.5rem;
+}
+.stars {
+  font-size: 3.5rem;
+  color: goldenrod;
+}
+.main_Container_CustomerReview_heading > h1 {
+  font-size: 8rem;
+}
+.main_Container_Footer_Wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper_section1-logo > h1 {
+  font-size: 10rem;
+}
+.main_Container_Footer_Wrapper_section1-content {
+  display: flex;
+  gap: 1rem;
+  width: 77%;
+  height: 90%;
+}
+.main_Container_Footer_Wrapper_section1_Content_links > h5 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.main_Container_Footer_Wrapper-section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 20%;
+}
+.main_Container_Footer_Wrapper_section1-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 86%;
+  height: 90%;
+}
+.main_Container_Footer_Wrapper_section1-form > h5 {
+  font-size: 5.5rem;
+  font-weight: 600;
+}
+.form-box {
+  width: 100%;
+  height: 53%;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: red; */
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.form-box input {
+  width: 80%;
+  height: 100%;
+  font-size: 4.0rem;
+}
+.form-box button {
+  width: 15%;
+  height: 100%;
+  background-color: #39e336;
+  outline: none;
+  border: none;
+  font-size: 4.0rem;
+}
+.main_Container_Footer_Wrapper_section2-logo > h5 {
+  font-size: 3.5rem;
+}
+}
+@media (max-width:500px) {
+  html{
+    font-size: 25%;
+  }
+  .main_Section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    /* border: 3px solid black; */
+}
+.main_Section_Content_1 > h1 {
+  width: 100%;
+  padding: 0rem 1rem;
+  /* background-color: blue; */
+  font-size: 8rem;
+  font-weight: 600;
+}
+.main_Section_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid green; */
+  gap: 2rem;
+}
+.main_Section_Content_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 18%;
+  background-color: antiquewhite;
+  font-size: 7rem;
+}
+.main_Section_Content_1 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  text-align: center;
+  gap: 1rem;
+  /* border: 2px solid red; */
+}
+.main_Section_Content_1 > h1 {
+  width: 100%;
+  padding: 0rem 1rem;
+  /* background-color: blue; */
+  font-size: 15rem;
+  font-weight: 600;
+}
+.main_Section_Picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 5rem;
+  /* border: 3px solid rebeccapurple; */
+}
+.main_Courses_categories {
+  width: 100%;
+  height: 60vh;
+}
+.main_Courses_sales {
+  width: 45%;
+  height: 46%;
+}
+.main_Course_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 30%;
+}
+.main_Course_detail > h3 {
+  font-size: 6.2rem;
+}
+.main_Course_detail > h6 {
+  font-size: 5.8rem;
+  font-weight: 200;
+}
+.main_Container_Courses_Content_Wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  /* background-color: paleturquoise; */
+}
+.main_Container_Courses_Content_Wrapper_heading {
+  width: 100%;
+  height: 50%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.main_Container_Courses_Content_Wrapper_heading > h2 {
+  font-size: 9rem;
+}
+.main_Container_Courses_Content_Wrapper_paragraph {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+.main_Container_Courses_Content_Wrapper_paragraph > p {
+  font-size: 5.5rem;
+  padding: 0 0.5rem;
+}
+
+.main_Container_Courses_Content {
+  height: 160vh;
+}
+.main_Container_Courses_Content_video-Content_Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+  width: 100%;
+  height: 110vh;
+  gap: 10rem;
+}
+
+.badge_1 {
+  width: 90%;
+  height: 14%;
+  /* background-color: blue; */
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+}
+
+.main_Container_Courses_Content_video-Content-Section_1 {
+  display: flex;
+  justify-content: center;
+  width: 55%;
+  height: 100%;
+}
+.main_Container_badge_content_boxes > h4 {
+  font-size: 7rem;
+}
+.main_Container_Courses_Content_video-Content-Section_1 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+}
+.main_Container_badge_content_boxes > p {
+  font-size: 2.5rem;
+}
+.main_Container_Courses_Content_video-Content-Section_2 {
+  width: 90%;
+  height: 100%;
+}
+.main_Container_Courses_videoWrapper_box_sections > h2 {
+  font-size: 13rem;
+}
+.main_Container_Courses_videoWrapper_box_sections > p {
+  font-size: 3.5rem;
+}
+.main_Container_Courses_videoWrapper_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  height: 20%;
+  background-color: #98fb97;
+  position: absolute;
+  top: -5%;
+  right: -1%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 20%;
+}
+.main_Container_Footer_Wrapper {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  gap: 1rem;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper_section2-logo > h5 {
+  font-size: 3.5rem;
+}
+.main_Container_Footer_Wrapper_section2-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+.main_Container_Footer_Wrapper-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 35%;
+}
+.main_Container_Footer_Wrapper_section2_logo-photo {
+  width: 15%;
+  height: 90%;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper_section2-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 91%;
+  height: 100%;
+  padding: 1rem 1rem;
+  gap: 1rem;
+}
+.main_Container_Footer_Wrapper_section2-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+  font-size: 9.5rem;
+  font-weight: 600;
+}
+.main_Container_Footer_Wrapper_section2-logo > h5 {
+  font-size: 5.5rem;
+}
+}
+@media (max-width:480px) {
+  html{
+    font-size: 15%;
+  }
+  .main_Section_Content_1 > h1 {
+    width: 100%;
+    padding: 0rem 1rem;
+    /* background-color: blue; */
+    font-size: 20rem;
+    font-weight: 600;
+} 
+.main_Section_Picture_Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+  width: 95%;
+  height: 100%;
+  /* border: 2px solid pink; */
+  padding: 2rem 1rem;
+}
+.main_Courses_heading {
+  font-size: 7rem;
+  text-align: center;
+}
+.main_Courses_Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 39vh;
+  margin-top: 7rem;
+}
+.main_Courses_link_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* padding: 0.5rem 0.5rem; */
+  /* background-color: yellow; */
+  font-size: 6rem;
+}
+.main_Container_Courses_Content_video-Content-Section_1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.main_Container_Courses_Content_Wrapper_heading > h2 {
+  font-size: 12rem;
+}
+.main_Container_Courses_Content_Wrapper_paragraph {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.badge_1 {
+  width: 58%;
+  height: 14%;
+  /* background-color: blue; */
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+}
+.main_Container_badge_content_boxes > h4 {
+  font-size: 11rem;
+}
+.main_Container_badge_content_boxes > p {
+  font-size: 4.5rem;
+}
+.main_Container_Courses_Content {
+  height: 148vh;
+}
+.swiper-slide > p {
+  font-size: 11.5rem;
+}
+.swiper-slide > h2 {
+  font-size: 8.5rem;
+}
+.stars {
+  font-size: 3.5rem;
+  color: goldenrod;
+}
+.main_Container_CustomerReview_heading > h1 {
+  font-size: 12rem;
+}
+.main_Container_Footer_Wrapper_section2_logo-photo {
+  width: 15%;
+  height: 61%;
+  border-radius: 50%;
+  padding: 1rem 1rem;
+}
+.main_Container_Footer_Wrapper_section2-logo > h5 {
+  font-size: 7.5rem;
+}
+.main_Container_Footer_Wrapper_section1-form > h5 {
+  font-size: 5.5rem;
+  font-weight: 600;
+}
+.form-box input {
+  width: 85%;
+  height: 100%;
+  font-size: 6rem;
+}
+.main_Container_Footer_Wrapper_section1-logo > h1 {
+  font-size: 15rem;
+}
+.main_Container_Footer_Wrapper_section1_Content_links > h5 {
+  font-size: 8rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.main_Container_Footer_Wrapper_section1-form > h5 {
+  font-size: 5.5rem;
+  font-weight: 600;
+}
+.main_Container_Footer_Wrapper_section1-form > h5 {
+  font-size: 8.5rem;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+}
+
+@media (max-width:320px) {
+  html{
+    font-size: 15%;
+  }
+  .main_Courses_heading>h2 {
+    text-align: center;
+   }
+   .swiper-button-prev{
+    display: none;
+   }
+   .swiper-button-next{
+    display: none;
+   }
+}
+@media (max-width:313px) {
+  html{
+    font-size: 15%;
+  }
+  .main_Courses_heading>h2 {
+    text-align: center;
+   }
+   .swiper-button-prev{
+    display: none;
+   }
+   .swiper-button-next{
+    display: none;
+   }
 }
